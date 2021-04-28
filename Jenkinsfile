@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'git push origin main'
+        sh 'git push'
       }
     }
   }
